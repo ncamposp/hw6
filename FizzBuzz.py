@@ -5,4 +5,5 @@ def FizzBuzz(x):
         return "Fizz"
     elif x % 5 == 0:
         return "Buzz"
-    
+    else:
+        return str(x)
