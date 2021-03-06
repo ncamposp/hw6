@@ -5,3 +5,5 @@ def LeapYear(x):
         return "NOT a leap year"
     elif(x % 4 == 0):
         return "is leap year"
+    else:
+        return "NOT a leap year"
