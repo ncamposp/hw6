@@ -8,6 +8,10 @@ class TestLeapYear (unittest.TestCase):
     self.assertEqual(LeapYear.LeapYear(1600), "is leap year")
     self.assertEqual(LeapYear.LeapYear(1200), "is leap year")
 
+    self.assertEqual(LeapYear.LeapYear(1700), "NOT a leap year")
+    self.assertEqual(LeapYear.LeapYear(1800), "NOT a leap year")
+    self.assertEqual(LeapYear.LeapYear(1900), "NOT a leap year")
+
 
 
     
